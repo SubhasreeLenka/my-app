@@ -1,0 +1,26 @@
+.certificate {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #000;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .generate-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .generate-btn:hover {
+    background-color: #0056b3;
+  }
+  

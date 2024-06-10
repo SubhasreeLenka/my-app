@@ -1,0 +1,19 @@
+import React from 'react'
+import { useLocation } from 'react-router-dom'
+
+const Back = ({ title }) => {
+    const location = useLocation()
+    const path = location.pathname ? location.pathname.split("/")[1] : "Home"
+
+    return (
+        <div>
+            <section className="back">
+                <h2>Home / {path}</h2>
+                <h1>{title}</h1>
+            </section>
+            <div className="margin"></div>
+        </div>
+    )
+}
+
+export default Back
