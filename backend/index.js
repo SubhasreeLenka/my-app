@@ -18,7 +18,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api', enrollRoutes); // Use the enroll route
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/mydatabase', {
+mongoose.connect('mongodb+srv://subhashreelenka56:y7tJdlBuRF7Bsp8m@cluster0.6su3gsc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
