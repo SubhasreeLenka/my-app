@@ -1,0 +1,38 @@
+.login-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .login-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-page form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .login-page div {
+    margin-bottom: 10px;
+  }
+  
+  .login-page label {
+    display: block;
+  }
+  
+  .login-page input {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .login-page button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-page .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
